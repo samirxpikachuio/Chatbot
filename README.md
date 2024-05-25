@@ -21,5 +21,5 @@ The source code for this website can be found on GitHub: [Chatbot Source Code](h
 
 ## Credits
 
-- This chatbot website was created by [Samir Œ] ([Profile]([https://github.com/samirxpikachuio/]).
+- This chatbot website was created by [Samir_Œ](https://github.com/samirxpikachuio)
 
