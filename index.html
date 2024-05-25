@@ -102,11 +102,7 @@
             const chatBox = document.getElementById('chat-box');
             const messageElement = document.createElement('div');
             messageElement.className = `message ${type}`;
-            
-            // Convert API response to Markdown
-            const markdownMessage = '```json\n' + JSON.stringify(message, null, 2) + '\n```';
-            messageElement.textContent = markdownMessage;
-            
+            messageElement.textContent = message;
             chatBox.appendChild(messageElement);
             chatBox.scrollTop = chatBox.scrollHeight;
         }
@@ -118,5 +114,4 @@
         }
     </script>
 </body>
-  </html>
-  
+</html>
