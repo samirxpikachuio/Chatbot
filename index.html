@@ -112,9 +112,9 @@
         }
 
         async function getBotResponse(message) {
-            const response = await fetch(`https://apis-samir.onrender.com/gpt?content=${encodeURIComponent(message)}`);
+            const response = await fetch(`https://apis-samir.onrender.com/liner?prompt=${encodeURIComponent(message)}`);
             const data = await response.json();
-            return data.message.content;
+            return data.answer;
         }
     </script>
 </body>
